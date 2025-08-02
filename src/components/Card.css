@@ -1,0 +1,44 @@
+.custom-card {
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.custom-card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.25rem;
+}
+
+.card-value {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.card-status {
+    font-size: 0.75rem;
+}
+
+.card-subtext {
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.active-count {
+    color: #15803d; /* Tailwind green-700 */
+    font-weight: 500;
+}
+
+.inactive-count {
+    color: #b91c1c; /* Tailwind red-700 */
+    font-weight: 500;
+    margin-left: 1rem;
+}

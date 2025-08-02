@@ -1,0 +1,57 @@
+/* General styling for our application's tables */
+.app-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.app-table thead th {
+    background-color: #f8f9fa;
+    color: #495057;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.app-table tbody td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e9ecef;
+    color: #212529;
+    vertical-align: middle;
+}
+
+.app-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.app-table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+/* Styling for action buttons inside the admin table */
+.app-table .action-button {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: white;
+    transition: opacity 0.2s;
+}
+
+.app-table .action-button:hover {
+    opacity: 0.85;
+}
+
+.app-table .btn-disable {
+    background-color: #dc3545; /* Red */
+}
+
+.app-table .btn-enable {
+    background-color: #28a745; /* Green */
+}
